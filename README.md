@@ -50,6 +50,3 @@ written every day. This does not mean it will be executed every day,
 since cron will handle this correctly. It's just that suncron makes
 an unnecessary line in the cron file. I'm lazy, so you'll have to 
 accept this ;-)
-
-I have also received a report about a "feature" where suncron "change"
-sunset or sunrise based on previous calculations. This is of course a bug and I'm working on it now, but progress is slow.
