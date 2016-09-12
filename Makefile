@@ -15,8 +15,8 @@ install:
 	@install -m755 /tmp/suncron.sh /etc/cron.daily/suncron
 	@rm -f /tmp/suncron.sh
 	@install -m644 src/suncron.conf /etc/default/suncron
-	@install -m644 README ${INSTALL_DIR}/share/suncron
-	@install -m644 COPYING ${INSTALL_DIR}/share/suncron
+	@install -m644 README.md ${INSTALL_DIR}/share/suncron
+	@install -m644 LICENSE ${INSTALL_DIR}/share/suncron
 	@install -m755 src/lib/CalcTime.pm ${INSTALL_DIR}/share/suncron/lib
 	@install -m755 src/lib/ConfigFile.pm ${INSTALL_DIR}/share/suncron/lib
 	@install -m755 src/lib/Astro/Sunrise.pm ${INSTALL_DIR}/share/suncron/lib/Astro
