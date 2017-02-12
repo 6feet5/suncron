@@ -172,7 +172,7 @@ sub crosses_horizon {
         $self->_calc_sun();
     }
 
-    return ($self->{_sunset}->hours != $self->{_sunrise}->hours) and ($self->{_sunset}->minutes != $self->{_sunrise}->minutes);
+    return (($self->{_sunset}->hours != $self->{_sunrise}->hours) and ($self->{_sunset}->minutes != $self->{_sunrise}->minutes));
 }
 
 #
